@@ -1,61 +1,172 @@
+@keyframes shadow {
+    from {
+        text-shadow: 5px 0 3px black;
+    }
+    50% {
+        text-shadow: 3px 0 30px black;
+    }
+    to {
+        text-shadow: 0 0 3px black;
+    }
+}
 
+@keyframes move {
+    from,
+    to {
+        top: 0;
+        left: 0;
+    }
+    25%,
+    75% {
+        top: 100%;
+    }
+    50% {
+        top: 50%;
+    }
+}
 
 .home {
     height: 89vh;
-    background-image: url('./istockphoto-1302189748-170667a.jpg');
+    /*background-image: url('./istockphoto-1302189748-170667a.jpg');*/
+    background-image: url('./../Projects/kartinki-sfera-2.jpg');
     display: flex;
     background-size: cover;
-    width:auto;
+    width: auto;
+
 
 }
 
-.conteiner{
+.conteiner {
     width: 100%;
+    margin-left: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.text{
+.text {
     width: 300px;
     color: wheat;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
-}
-.text:hover{
-    width: 300px;
-    color: wheat;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
-
+    animation: shadow 2s infinite ease-in-out;
 }
 
+@-webkit-keyframes move_eye {
+    from {
+        margin-left: -10%;
+        margin-bottom: 0%
+    }
+    to {
+        margin-left: 10%;
+        margin-bottom: 0%
+    }
+}
+
+@-moz-keyframes move_eye {
+    from {
+        margin-left: -10%;
+        margin-bottom: 0%
+    }
+    to {
+        margin-left: 10%;
+        margin-bottom: 0%
+    }
+}
+
+@-o-keyframes move_eye {
+    from {
+        margin-left: -10%;
+        margin-bottom: 0%
+    }
+    to {
+        margin-left: 10%;
+        margin-bottom: 0%
+    }
+}
+
+@keyframes move_eye {
+    from {
+        margin-left: -10%;
+        margin-bottom: 0%
+    }
+    to {
+        margin-left: 10%;
+        margin-bottom: 0%
+    }
+}
 
 
-.hi{
-    font-size: 50px;
+.hi {
+    font-family: "Comic Sans MS";
+    font-size: 90px;
     font-weight: bold;
-
+    color: wheat;
+    border-bottom: #0734ea 15px solid;
+    width: auto;
+    height: 90px;
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+    -moz-animation: 4s linear 0s infinite alternate move_eye;
+    -o-animation: 4s linear 0s infinite alternate move_eye;
+    animation: 4s linear 0s infinite alternate move_eye;
 }
 
-.photo{
+@keyframes photo {
+    from {
+        transform: rotateY(
+                1deg);
+    }
+
+    to {
+        transform: rotateY(
+                350deg);
+    }
+}
+
+.photo {
+
 
     width: 40vw;
     height: 65vh;
     vertical-align: middle;
-    will-change: transform;
-    transform: perspective(600px) rotateX(
-            360deg) rotateY(
-            340deg);
-}
-.photo:hover{
+    animation: 20s linear 2s 1 alternate photo;
+    -webkit-animation: 20s linear 2s 1 alternate photo;
+    -moz-animation: 20s linear 2s 1 alternate photo;
+    -o-animation: 20s linear 2s 1 alternate photo;
 
-    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-    width: 40vw;
-    height: 65vh;
-    vertical-align: middle;
-    will-change: transform;
-    transform:
-    perspective(3000px) rotateX(
-            360deg) rotateY(
-            360deg);
-            /*scale3d(1.2,1.2,1.2)*/
 }
+
+/*.photo:hover {*/
+
+/*    width: 40vw;*/
+/*    height: 65vh;*/
+/*    vertical-align: middle;*/
+/*    animation: paused photo;*/
+/*    -webkit-animation: paused photo;*/
+/*    -moz-animation: 0s linear 0s paused alternate photo;*/
+/*    -o-animation: 0s linear 0s paused alternate photo;*/
+
+/*}*/
+
+
+.about {
+    text-align: justify;
+}
+
+.front {
+    font-size: 28px;
+}
+
+@media screen  and (max-width: 1025px) {
+    .photo {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .home {
+        height: 100%;
+    }
+
+}
+

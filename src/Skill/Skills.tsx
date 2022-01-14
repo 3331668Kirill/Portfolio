@@ -1,15 +1,15 @@
 import React from 'react';
 import css from './Skills.module.css';
 import Skill from "./Skill";
-import r from './react.jpeg'
-import js from './JS4.jpeg'
-import ts from './TS.jpeg'
-import c from './CSS.jpeg'
-import h from './HTML.jpeg'
-import rdx from './redux.jpeg'
-import ax from './axios.jpeg'
-import git from './git.jpeg'
-import node from './node.jpeg'
+import r from './react.png'
+import js from './js.png'
+import ts from './ts.png'
+import c from './CSS.png'
+import h from './HTML.png'
+import rdx from './redux.png'
+import ax from './axios.png'
+import git from './git.png'
+import node from './node.png'
 
 
 function Skills() {

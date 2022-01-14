@@ -1,5 +1,44 @@
 .contact{
+    height: 89vh;
+    background-image: url('./shari-na-temnom-fone.jpg');
+    display: flex;
+    background-size: auto;
+    width: auto;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: wheat;
+}
+.contact_block{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.contact_element{
+    margin-top: 20px;
+    display: flex;
+    width: 380px;
+    height: 80px;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_img{
+    /*width: inherit;*/
+    height: inherit;
+}
+.contact_value{
 
-    background-color: darkslategray;
-    border: 1px solid;
+    width: max-content;
+    font-family: "Comic Sans MS";
+    font-size: 28px;
+    font-weight: bold;
 }

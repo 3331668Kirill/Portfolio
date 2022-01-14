@@ -1,7 +1,6 @@
 .skill{
-    height: 89vh;
-    background-color: indigo;
-    border: 1px solid #030328;
+    height: 300vmax;
+    background-image: url('./../Contacts/shari-na-temnom-fone.jpg');
     color: wheat;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
 
