@@ -15,7 +15,7 @@ const Skill = ({title, description, image}:TypeSkillProps) => {
                     <div className={css.ico}>
                         <img className={css.icon} src={image}/>
                     </div>
-                    <h3>{title}</h3>
+                    <h3 className={css.title}>{title}</h3>
                     <span >{description}</span>
                 </div>
 

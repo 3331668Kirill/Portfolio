@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Home.module.css';
-import photo from "./photo12.png"
+import photo from "./photo16.png"
 
 
 
@@ -28,8 +28,8 @@ function Home() {
 
                 </div>
 
-                <div className={''}>
-                    <img className={css.photo} src={photo}/>
+                <div className={css.photo}>
+                    <img className={''} src={photo}/>
                 </div>
 
 

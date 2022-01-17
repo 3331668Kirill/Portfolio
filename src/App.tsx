@@ -1,11 +1,12 @@
 import React from 'react';
-import {Routes, Route, Navigate} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import './App.css';
 import Header from "./Header/Header";
 import Contacts from "./Contacts/Contacts";
 import Skills from "./Skill/Skills";
 import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
+
 
 
 function App() {

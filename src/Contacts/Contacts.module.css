@@ -1,6 +1,6 @@
 .contact{
     height: 89vh;
-    background-image: url('./shari-na-temnom-fone.jpg');
+    background-image: url('./soty.jpg');
     display: flex;
     background-size: auto;
     width: auto;
@@ -28,17 +28,17 @@
     text-align: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: center;
 }
 .contact_img{
-    /*width: inherit;*/
+    margin-right: 20px;
     height: inherit;
+    width: 80px;
 }
 .contact_value{
 
     width: max-content;
     font-family: "Comic Sans MS";
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }

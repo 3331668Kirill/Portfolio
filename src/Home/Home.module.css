@@ -27,10 +27,9 @@
 
 .home {
     height: 89vh;
-    /*background-image: url('./istockphoto-1302189748-170667a.jpg');*/
     background-image: url('./../Projects/kartinki-sfera-2.jpg');
     display: flex;
-    background-size: cover;
+    background-size: auto;
     width: auto;
 
 
@@ -38,14 +37,16 @@
 
 .conteiner {
     width: 100%;
-    margin-left: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .text {
+    background-color: #030328;
+    opacity: 0.8;
+    padding: 20px;
     width: 300px;
     color: wheat;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
@@ -111,53 +112,24 @@
     animation: 4s linear 0s infinite alternate move_eye;
 }
 
-@keyframes photo {
-    from {
-        transform: rotateY(
-                1deg);
-    }
-
-    to {
-        transform: rotateY(
-                350deg);
-    }
-}
 
 .photo {
+    margin-left: 50px;
+    align-self: end;
 
-
-    width: 40vw;
-    height: 65vh;
-    vertical-align: middle;
-    animation: 20s linear 2s 1 alternate photo;
-    -webkit-animation: 20s linear 2s 1 alternate photo;
-    -moz-animation: 20s linear 2s 1 alternate photo;
-    -o-animation: 20s linear 2s 1 alternate photo;
 
 }
-
-/*.photo:hover {*/
-
-/*    width: 40vw;*/
-/*    height: 65vh;*/
-/*    vertical-align: middle;*/
-/*    animation: paused photo;*/
-/*    -webkit-animation: paused photo;*/
-/*    -moz-animation: 0s linear 0s paused alternate photo;*/
-/*    -o-animation: 0s linear 0s paused alternate photo;*/
-
-/*}*/
-
 
 .about {
     text-align: justify;
+
 }
 
 .front {
     font-size: 28px;
 }
 
-@media screen  and (max-width: 1025px) {
+@media screen  and (max-width: 1025px) and (min-width: 540px){
     .photo {
         width: 100%;
         height: 100%;
@@ -168,5 +140,16 @@
         height: 100%;
     }
 
+}
+
+@media (max-width: 539px) {
+    .photo{
+        width: 100vw;
+        height: 50vh;
+    }
+    .home {
+        background-size: cover;
+        height: 100vmax;
+    }
 }
 
