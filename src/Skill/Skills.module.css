@@ -1,4 +1,4 @@
-.skill{
+.skill {
     height: 300vmax;
     background-image: url('./../Contacts/soty.jpg');
     color: wheat;
@@ -6,7 +6,7 @@
 
 }
 
-.conteiner{
+.conteiner {
     height: 100%;
     width: 90%;
     margin: 0 auto;
@@ -14,9 +14,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
 }
-.skill_block{
+
+.skill_block {
     width: 100%;
     display: flex;
     justify-content: space-between;

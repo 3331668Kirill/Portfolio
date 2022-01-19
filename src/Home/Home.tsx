@@ -3,7 +3,6 @@ import css from './Home.module.css';
 import photo from "./photo16.png"
 
 
-
 function Home() {
 
     return (
@@ -24,12 +23,10 @@ function Home() {
                     <p className={css.about}> I`m hard working and responsible person. I`m very active, organized and
                         patient man. I always do my best to achieve my goals. My strong points is the ability to deal
                         with difficult problems. I`m very flexible and adaptive to learning new things.</p>
-
-
                 </div>
 
                 <div className={css.photo}>
-                    <img className={''} src={photo}/>
+                    <img className={css.photo_img} src={photo}/>
                 </div>
 
 

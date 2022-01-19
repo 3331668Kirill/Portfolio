@@ -6,17 +6,18 @@ type TypeSkillProps = {
     title:string
     description:string
     image: any
+    link:string
 }
 
-const Project = ({title, description, image}:TypeSkillProps) => {
+const Project = ({title, description, image, link}:TypeSkillProps) => {
     return (
 
                 <div className={css.project_element}>
                     <div className={css.ico}>
                         <img className={css.icon} src={image}/>
                     </div>
-                    <h3>{title}</h3>
-                    <span >{description}</span>
+                    <a href={link} className={css.title}>{title}</a>
+                    <span className={css.description}>{description}</span>
                 </div>
 
 

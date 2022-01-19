@@ -1,4 +1,4 @@
-.contact{
+.contact {
     height: 89vh;
     background-image: url('./soty.jpg');
     display: flex;
@@ -11,7 +11,8 @@
     flex-wrap: wrap;
     color: wheat;
 }
-.contact_block{
+
+.contact_block {
     height: 90%;
     width: 40%;
     display: flex;
@@ -20,7 +21,8 @@
     justify-content: space-around;
     align-items: flex-end;
 }
-.contact_element{
+
+.contact_element {
     margin-top: 20px;
     display: flex;
     width: 380px;
@@ -30,12 +32,14 @@
     flex-wrap: nowrap;
     align-items: center;
 }
-.contact_img{
+
+.contact_img {
     margin-right: 20px;
     height: inherit;
     width: 80px;
 }
-.contact_value{
+
+.contact_value {
 
     width: max-content;
     font-family: "Comic Sans MS";

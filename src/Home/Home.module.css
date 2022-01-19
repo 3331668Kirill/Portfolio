@@ -129,7 +129,7 @@
     font-size: 28px;
 }
 
-@media screen  and (max-width: 1025px) and (min-width: 540px){
+@media screen  and (max-width: 1025px) and (min-width: 540px) {
     .photo {
         width: 100%;
         height: 100%;
@@ -143,13 +143,14 @@
 }
 
 @media (max-width: 539px) {
-    .photo{
-        width: 100vw;
-        height: 50vh;
+    .photo_img {
+        width: 300px;
+        height: 300px;
+
     }
+
     .home {
-        background-size: cover;
-        height: 100vmax;
+        height: 100%;
     }
 }
 

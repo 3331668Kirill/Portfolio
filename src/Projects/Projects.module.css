@@ -1,7 +1,7 @@
 .projects{
     width: 100%;
-    height: 100%;
-    background-image: url('./kartinki-sfera-2.jpg');
+    height: 150vmax;
+    background-image: url('./../Contacts/soty.jpg');
     position:  relative;
     display: flex;
     background-size: auto;
@@ -12,17 +12,11 @@
     justify-content: flex-start;
     flex-wrap: wrap ;
     opacity: 1;
-    /*-webkit-animation: 4s linear 0s infinite alternate move_eye;*/
-    /*-moz-animation: 4s linear 0s infinite alternate move_eye;*/
-    /*-o-animation: 4s linear 0s infinite alternate move_eye;*/
-    /*animation: 4s linear 0s infinite alternate move_eye;*/
-    /*transform: rotateX(12deg);*/
 }
 .s{
     height: 100vmax;
     position: relative;
     background-color: #030328;
-    /*background-image: url('./kartinki-sfera-2.jpg');*/
 }
 
 .project_block{
@@ -35,5 +29,26 @@
 
 }
 .project_element{
-    border: wheat solid 3px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title{
+    font-size: xx-large;
+    font-weight: 500;
+    color: wheat;
+}
+.description{
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+    color: wheat;
+}
+.icon{
+    height: 400px;
+    width: 600px;
+
 }
