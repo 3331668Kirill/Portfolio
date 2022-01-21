@@ -7,8 +7,8 @@ export const accountFormDescription = 'I would like to present you my project, w
     'MongoDB, RestAPI. Project is still in progress, but some functional works.'
 
 export const socialNetworkDescription = 'It`s IT-Incubator`s training project. The bottom line is that we learned by doing ' +
-    'and then scale up best practices. In this project I have found out many things such as: class and functional components ' +
-    'SPA, HOC, hooks, axios, Redux, routing and others '
+    'and then scale up best practices. In this project I have found out many things such as: class and functional components, ' +
+    'SPA, HOC, hooks, axios, Redux, routing and others. '
 
 export const todoDescription = 'Web service for task management. Tasks can be placed in projects, sorted by filters, ' +
     'master their labels, significantly and exported.'
