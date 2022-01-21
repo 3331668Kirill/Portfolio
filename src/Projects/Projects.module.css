@@ -1,7 +1,8 @@
 .projects{
     width: 100%;
     height: 250vmax;
-    background-image: url('./../Contacts/soty.jpg');
+    background-image: url('../assets/img/soty.jpg');
+
     position:  relative;
     display: flex;
     background-size: auto;
@@ -12,11 +13,14 @@
     flex-wrap: wrap ;
     opacity: 1;
 }
-.s{
-    height: 100vmax;
-    position: relative;
-    background-color: #030328;
+body{
+    background-color: #1c1c23;
 }
+/*.s{*/
+/*    height: 100vmax;*/
+/*    position: relative;*/
+/*    background-color: #030328;*/
+/*}*/
 
 .project_block{
     margin-top: 50px;
@@ -51,3 +55,29 @@
     width: 600px;
 
 }
+
+@media screen  and (max-width: 1025px) and (min-width: 540px) {
+    .icon {
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .projects {
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 539px) {
+    .icon {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .projects  {
+        height: 100%;
+    }
+}
+

@@ -1,11 +1,11 @@
 import React from 'react';
 import css from './Projects.module.css'
 import Project from "./Project";
-import forms from './accountforms.png'
+import forms from '../assets/img/accountforms.png'
 import {accountFormDescription, englishDescription, socialNetworkDescription, todoDescription} from "./decriptions";
-import socialnetwork from './social.png'
-import todo from './todo.png'
-import english from './english.png'
+import socialnetwork from '../assets/img/social.png'
+import todo from '../assets/img/todo.png'
+import english from '../assets/img/english.png'
 
 function Projects() {
     return (<div className={css.s}>

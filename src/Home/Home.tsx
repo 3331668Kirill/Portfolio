@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Home.module.css';
-import photo from "./photo16.png"
+import photo from "../assets/img/photo16.png"
 
 
 function Home() {

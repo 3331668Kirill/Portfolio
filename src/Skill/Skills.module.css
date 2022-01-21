@@ -1,6 +1,6 @@
 .skill {
     height: 300vmax;
-    background-image: url('./../Contacts/soty.jpg');
+    background-image: url('../assets/img/soty.jpg');
     color: wheat;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
 

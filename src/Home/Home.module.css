@@ -27,7 +27,7 @@
 
 .home {
     height: 89vh;
-    background-image: url('./../Projects/kartinki-sfera-2.jpg');
+    background-image: url('../assets/img/kartinki-sfera-2.jpg');
     display: flex;
     background-size: auto;
     width: auto;

@@ -1,10 +1,10 @@
 import React from 'react';
 import css from './Contacts.module.css';
-import phone from './phone.png'
-import telegram from './telegram.png'
-import mail from './mail.png'
-import viber from './viber.png'
-import linkedin from './linkedin.png'
+import phone from '../assets/img/phone.png'
+import telegram from '../assets/img/telegram.png'
+import mail from '../assets/img/mail.png'
+import viber from '../assets/img/viber.png'
+import linkedin from '../assets/img/linkedin.png'
 
 
 
