@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9a25281d.css",
-    "main.js": "/Portfolio/static/js/main.cd992b00.js",
+    "main.js": "/Portfolio/static/js/main.e74855f3.js",
     "static/js/787.467a4d41.chunk.js": "/Portfolio/static/js/787.467a4d41.chunk.js",
     "static/media/todo.png": "/Portfolio/static/media/todo.9a8d85c166d5816f75d9.png",
     "static/media/kartinki-sfera-2.jpg": "/Portfolio/static/media/kartinki-sfera-2.4d4f6875a8a7910aba61.jpg",
@@ -25,11 +25,11 @@
     "static/media/telegram.png": "/Portfolio/static/media/telegram.f03a5dd1ce484c7e2755.png",
     "index.html": "/Portfolio/index.html",
     "main.9a25281d.css.map": "/Portfolio/static/css/main.9a25281d.css.map",
-    "main.cd992b00.js.map": "/Portfolio/static/js/main.cd992b00.js.map",
+    "main.e74855f3.js.map": "/Portfolio/static/js/main.e74855f3.js.map",
     "787.467a4d41.chunk.js.map": "/Portfolio/static/js/787.467a4d41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a25281d.css",
-    "static/js/main.cd992b00.js"
+    "static/js/main.e74855f3.js"
   ]
 }
