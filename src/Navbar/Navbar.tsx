@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className={css.nav}>
 
-            <NavLink className={css.a} to='/home'>About me</NavLink>
+            <NavLink className={css.a} to='/'>About me</NavLink>
 
             <NavLink className={css.a} to='/skill'>Skills </NavLink>
 
