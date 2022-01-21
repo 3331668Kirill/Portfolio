@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9a25281d.css",
-    "main.js": "/Portfolio/static/js/main.e74855f3.js",
+    "main.css": "/Portfolio/static/css/main.b40c76a0.css",
+    "main.js": "/Portfolio/static/js/main.c54501dd.js",
     "static/js/787.467a4d41.chunk.js": "/Portfolio/static/js/787.467a4d41.chunk.js",
     "static/media/todo.png": "/Portfolio/static/media/todo.9a8d85c166d5816f75d9.png",
     "static/media/kartinki-sfera-2.jpg": "/Portfolio/static/media/kartinki-sfera-2.4d4f6875a8a7910aba61.jpg",
@@ -24,12 +24,12 @@
     "static/media/phone.png": "/Portfolio/static/media/phone.437d0ecc49739f2fc427.png",
     "static/media/telegram.png": "/Portfolio/static/media/telegram.f03a5dd1ce484c7e2755.png",
     "index.html": "/Portfolio/index.html",
-    "main.9a25281d.css.map": "/Portfolio/static/css/main.9a25281d.css.map",
-    "main.e74855f3.js.map": "/Portfolio/static/js/main.e74855f3.js.map",
+    "main.b40c76a0.css.map": "/Portfolio/static/css/main.b40c76a0.css.map",
+    "main.c54501dd.js.map": "/Portfolio/static/js/main.c54501dd.js.map",
     "787.467a4d41.chunk.js.map": "/Portfolio/static/js/787.467a4d41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a25281d.css",
-    "static/js/main.e74855f3.js"
+    "static/css/main.b40c76a0.css",
+    "static/js/main.c54501dd.js"
   ]
 }
