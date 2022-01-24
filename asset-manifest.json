@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b40c76a0.css",
-    "main.js": "/Portfolio/static/js/main.c54501dd.js",
+    "main.css": "/Portfolio/static/css/main.d42cf5c7.css",
+    "main.js": "/Portfolio/static/js/main.6ee5335b.js",
     "static/js/787.467a4d41.chunk.js": "/Portfolio/static/js/787.467a4d41.chunk.js",
     "static/media/todo.png": "/Portfolio/static/media/todo.9a8d85c166d5816f75d9.png",
     "static/media/kartinki-sfera-2.jpg": "/Portfolio/static/media/kartinki-sfera-2.4d4f6875a8a7910aba61.jpg",
-    "static/media/accountforms.png": "/Portfolio/static/media/accountforms.6166c9707c87af75b1cb.png",
+    "static/media/accountforms.png": "/Portfolio/static/media/accountforms.ed20f0f6c46d5c5987b0.png",
     "static/media/english.png": "/Portfolio/static/media/english.466accd2e60927014f0a.png",
     "static/media/photo16.png": "/Portfolio/static/media/photo16.45665ab98bf7a3993d8a.png",
     "static/media/soty.jpg": "/Portfolio/static/media/soty.a4709a469e239e9c751e.jpg",
@@ -24,12 +24,12 @@
     "static/media/phone.png": "/Portfolio/static/media/phone.437d0ecc49739f2fc427.png",
     "static/media/telegram.png": "/Portfolio/static/media/telegram.f03a5dd1ce484c7e2755.png",
     "index.html": "/Portfolio/index.html",
-    "main.b40c76a0.css.map": "/Portfolio/static/css/main.b40c76a0.css.map",
-    "main.c54501dd.js.map": "/Portfolio/static/js/main.c54501dd.js.map",
+    "main.d42cf5c7.css.map": "/Portfolio/static/css/main.d42cf5c7.css.map",
+    "main.6ee5335b.js.map": "/Portfolio/static/js/main.6ee5335b.js.map",
     "787.467a4d41.chunk.js.map": "/Portfolio/static/js/787.467a4d41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40c76a0.css",
-    "static/js/main.c54501dd.js"
+    "static/css/main.d42cf5c7.css",
+    "static/js/main.6ee5335b.js"
   ]
 }
