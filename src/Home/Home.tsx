@@ -7,10 +7,10 @@ function Home() {
 
     return (
         <div className={css.home}>
-            <audio className="audio"
-                   src="https://new.muzikavsem.org/dl/993730849/Michael_Vignola_-_Knowing_(new.muzikavsem.org).mp3"
-                   autoPlay>
-            </audio>
+            {/*<audio className="audio"*/}
+            {/*       src="https://new.muzikavsem.org/dl/993730849/Michael_Vignola_-_Knowing_(new.muzikavsem.org).mp3"*/}
+            {/*       autoPlay>*/}
+            {/*</audio>*/}
             <div className={css.conteiner}>
 
                 <div className={css.text}>
